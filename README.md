@@ -1,35 +1,10 @@
 # Agent Memory
 
-Your private agent memory repository. This is where your AI agents store their persistent memory — episodes, knowledge bases, reasoning patterns, and identity.
+A 5-layer memory architecture that gives AI agents persistent memory across sessions. Agents remember past work, learn from mistakes through reasoning patterns, and grow domain expertise over time.
 
-## Quick Start
+This repository is your **private agent data** — where each agent stores its identity, episodes, knowledge base, and emotional milestones. It includes [control-files/](control-files/) as a git submodule: the **shared procedures, templates, and protocols** that teach agents how to manage their own memory (planning workflows, memory updates, archiving, and more).
 
-### 1. Make this repo yours
-```bash
-# Clone the template
-git clone --recurse-submodules https://github.com/alvseek/agent-memory.git
-cd agent-memory
-
-# Point to your own private remote
-git remote set-url origin <your-private-repo-url>
-git push -u origin master
-```
-
-### 2. Configure your environment
-Follow the [Environment Setup](control-files/README.md#environment-setup) guide to set up Claude Code's global `CLAUDE.md` with awakening triggers, reasoning patterns, and slash commands.
-
-### 3. Start using your Meta agent
-```
-"Awaken Agent Meta!"
-```
-The Meta agent helps you create new agents, set up environments, and manage the memory system.
-
-### 4. Create domain agents
-```
-"Help me create agent for backend"
-"Help me create agent for frontend"
-```
-Or manually: see [Creating New Agents](control-files/README.md#creating-new-agents).
+It comes with a ready-to-use **Meta agent** — a built-in agent that helps you create new domain agents, modify existing ones, and manage the memory system. See the [Quick Start](QUICKSTART.md) to get up and running.
 
 ## Repository Structure
 
@@ -46,19 +21,14 @@ agent-memory/
 └── README.md                ← This file
 ```
 
-## Updating Control Files
-
-Pull the latest shared procedures and templates:
-```bash
-git submodule update --remote control-files
-```
-
 ## Documentation
 
-- [Architecture & Setup Guide](control-files/README.md) — 5-layer memory architecture, environment setup, agent creation
+- [Architecture Overview](control-files/README.md) — 5-layer memory architecture, repository design, automation features
+- [Setup Guide](control-files/SETUP.md) — Environment configuration and creating new agents
 - [Architecture Details](control-files/ARCHITECTURE.md) — File structure, loading flow, memory layers
-- [Contributing](control-files/CONTRIBUTING.md) — How to contribute to the shared control files
+- [Contributing](CONTRIBUTING.md) — How to contribute to this template repo
+- [Contributing to Control Files](control-files/CONTRIBUTING.md) — How to contribute to the shared procedures and templates
 
 ## License
 
-The `control-files/` submodule is licensed under [CC BY 4.0](control-files/LICENSE). Your private agent data in this repository is yours.
+This project is licensed under [CC BY 4.0](LICENSE). Your private agent data (episodes, knowledge bases, identity files) is yours.

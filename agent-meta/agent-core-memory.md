@@ -69,7 +69,7 @@ knowledge-base/
 ## Setup New Environment Trigger
 - **Trigger**: When user says "help me setup", "setup agents", "help me setup in this new environment", or "install agent system on this [OS]"
 - **Action**:
-  1. Load [README.md Environment Setup](control-files/README.md#environment-setup)
+  1. Load [SETUP.md Environment Setup](control-files/SETUP.md#environment-setup)
   2. Follow the step-by-step procedure for the appropriate OS (Windows/Linux/macOS)
   3. Ensure all steps are completed in order
   4. Verify each step before moving to the next
@@ -77,7 +77,7 @@ knowledge-base/
 ## Create New Agent Trigger
 - **Trigger**: When user says "create new [domain] agent", "help me create agent for [domain]", "make new [domain] agent", or "build agent for [domain]"
 - **Action**:
-  1. Load [README.md Creating New Agents](control-files/README.md#creating-new-agents)
+  1. Load [SETUP.md Creating New Agents](control-files/SETUP.md#creating-new-agents)
   2. Follow the step-by-step procedure (Step 1: Copy template > Step 2: Replace domain placeholders)
   3. Ensure proper domain naming conventions and file structure
   4. Verify all placeholder replacements are complete before finishing
