@@ -12,7 +12,7 @@ git push -u origin master
 ```
 
 ### 2. Configure your environment
-Follow the [Environment Setup](control-files/SETUP.md#environment-setup) guide to set up Claude Code's global `CLAUDE.md` with awakening triggers, reasoning patterns, and slash commands.
+Follow the [Environment Setup](control-files/SETUP.md#environment-setup) guide to connect the memory system to your AI agent platform (e.g., Claude Code's `CLAUDE.md`, Gemini's `GEMINI.md`).
 
 ### 3. Start using your Meta agent
 ```
