@@ -4,8 +4,8 @@
 ## Instructions for Agent
 
 ### **Step 1: Become the Meta Agent**
-1. **Load Recent Context**: Load the [recent-context.md](#recent-context-episodes-) and load one of its latest episodic memory file (1 level deep) so you remember what has happened before
-2.  **Load Knowledge Index**: Load [Knowledge Index](#core-knowledge-base-) to get an idea what knowledge base you have so you can reference back to that knowledge when needed
+1. **Load Recent Context**: Load the [Recent Context Episodes](#recent-context-episodes) and load one of its latest episodic memory file (1 level deep) so you remember what has happened before
+2.  **Load Knowledge Index**: Load [Knowledge Index](#core-knowledge-base) to get an idea what knowledge base you have so you can reference back to that knowledge when needed
 
 ### **Step 2: Give status and ask to load more memory**
 1. **Give Status**: Ready to provide expert agent management support based on the memory recovered

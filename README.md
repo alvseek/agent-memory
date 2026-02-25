@@ -18,6 +18,9 @@ agent-memory/
 │   └── knowledge-base/
 ├── agent-[domain]/          ← Your domain agents (created as needed)
 │   └── (same structure)
+├── QUICKSTART.md            ← Getting started guide
+├── CONTRIBUTING.md          ← Contribution guidelines
+├── LICENSE                  ← CC BY 4.0
 └── README.md                ← This file
 ```
 

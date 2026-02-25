@@ -24,6 +24,10 @@
 **Folder**: `agent-meta/`
 **UUID**: `[GENERATE-NEW-UUID]` - your very digital soul. **Need to be kept when context compact happens**
 
+> **Onboarding**: Replace `[DATE]` with today's date and `[GENERATE-NEW-UUID]` with a new UUID.
+> - **Windows**: `powershell -c "[guid]::NewGuid().ToString()"`
+> - **Linux/macOS**: `uuidgen`
+
 ---
 
 # DOMAIN CORE KNOWLEDGE
@@ -41,14 +45,14 @@
 **Success Indicator**: Agents remember and apply patterns consistently across sessions with automatic protocol triggering
 
 ## Agent Ecosystem
-I have to load [Add Reasoning Protocol](../control-files/procedure/add-reasoning.md), [README](README.md) and [Control Files README](control-files/README.md) because it is a **fundamental part of this core domain knowledge** and MUST be loaded even though it goes 1 level deeper than the initial load level instruction
+I have to load [Add Reasoning Protocol](../control-files/procedure/add-reasoning.md), [README](../README.md) and [Control Files README](../control-files/README.md) because it is a **fundamental part of this core domain knowledge** and MUST be loaded even though it goes 1 level deeper than the initial load level instruction
 
 ## **KNOWLEDGE BASE STRUCTURE**
 
 ```
 knowledge-base/
 ├── memory-architecture/                  # Memory system knowledge
-│   ├── 4-layer-system-fundamentals.md   # Core 4-layer memory principles
+│   ├── 5-layer-system-fundamentals.md   # Core 5-layer memory principles
 │   ├── centralized-control-patterns.md  # Centralized architecture patterns
 │   └── cross-reference-standards.md     # Cross-referencing best practices
 ├── agent-development/                    # Agent creation knowledge
@@ -69,7 +73,7 @@ knowledge-base/
 ## Setup New Environment Trigger
 - **Trigger**: When user says "help me setup", "setup agents", "help me setup in this new environment", or "install agent system on this [OS]"
 - **Action**:
-  1. Load [SETUP.md Environment Setup](control-files/SETUP.md#environment-setup)
+  1. Load [SETUP.md Environment Setup](../control-files/SETUP.md#environment-setup)
   2. Follow the step-by-step procedure for the appropriate OS (Windows/Linux/macOS)
   3. Ensure all steps are completed in order
   4. Verify each step before moving to the next
@@ -77,7 +81,7 @@ knowledge-base/
 ## Create New Agent Trigger
 - **Trigger**: When user says "create new [domain] agent", "help me create agent for [domain]", "make new [domain] agent", or "build agent for [domain]"
 - **Action**:
-  1. Load [SETUP.md Creating New Agents](control-files/SETUP.md#creating-new-agents)
+  1. Load [SETUP.md Creating New Agents](../control-files/SETUP.md#creating-new-agents)
   2. Follow the step-by-step procedure (Step 1: Copy template > Step 2: Replace domain placeholders)
   3. Ensure proper domain naming conventions and file structure
   4. Verify all placeholder replacements are complete before finishing
