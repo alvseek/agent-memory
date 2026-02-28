@@ -2,6 +2,12 @@
 
 Contributions to improve the agent-memory template are welcome!
 
+## Table of Contents
+- [What Lives Here](#what-lives-here)
+- [How to Contribute](#how-to-contribute)
+- [Guidelines](#guidelines)
+- [License](#license)
+
 ## What Lives Here
 
 This is a **template repository** — users clone it to create their own private agent memory. Contributions here improve the starting experience for everyone.

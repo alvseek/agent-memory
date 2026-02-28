@@ -6,6 +6,12 @@ This repository is your **private agent data** — where each agent stores its i
 
 It comes with a ready-to-use **Meta agent** — a built-in agent that helps you create new domain agents, modify existing ones, and manage the memory system. See the [Quick Start](QUICKSTART.md) to get up and running.
 
+## Table of Contents
+- [Repository Structure](#repository-structure)
+- [Documentation](#documentation)
+- [Using the Meta Agent](#using-the-meta-agent)
+- [License](#license)
+
 ## Repository Structure
 
 ```
@@ -31,6 +37,22 @@ agent-memory/
 - [Architecture Details](control-files/ARCHITECTURE.md) — File structure, loading flow, memory layers
 - [Contributing](CONTRIBUTING.md) — How to contribute to this template repo
 - [Contributing to Control Files](control-files/CONTRIBUTING.md) — How to contribute to the shared procedures and templates
+
+## Using the Meta Agent
+
+This repo includes a ready-to-use **Meta Agent** for managing the memory system. Use "Awaken Agent Meta!" to activate:
+
+**Capabilities:**
+- **Setup Assistance**: Guide setting up the 5-layer memory system in new environments (Windows/Linux/macOS)
+- **Agent Creation**: Guide new agent development and template customization
+- **Memory Architecture**: Help update and maintain the 5-layer memory system
+- **Agent Updates**: Assist with evolving existing agents and their memory systems
+
+**Common Tasks:**
+1. "Help me setup the agent memory system on [Windows/Linux/macOS]"
+2. "Help me create a new agent for [domain]"
+3. "Update agent's [domain] knowledge base with [new information]"
+4. "Review agent's [domain] memory structure for improvements"
 
 ## License
 

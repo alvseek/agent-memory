@@ -15,7 +15,7 @@
 ---
 
 # Recent Context Episodes
-*WRITE INSTRUCTION: To add episodic memory and update the recent context, please read the [Update Episodic Protocol](/control-files/procedure/update-episodic.md)*
+*WRITE INSTRUCTION: To add episodic memory and update the recent context, please read the [Update Episodic Protocol](/control-files/procedure/memory/update-episodic.md)*
 
 ## Interactions List
 
@@ -24,7 +24,7 @@
 ---
 
 # Core Knowledge Base
-*WRITE INSTRUCTION: To add knowledge memory and update this index, please read the [Add Knowledge Protocol](/control-files/procedure/add-knowledge.md)*
+*WRITE INSTRUCTION: To add knowledge memory and update this index, please read the [Add Knowledge Protocol](/control-files/procedure/memory/add-knowledge.md)*
 *REFERENCE DIRECTORY: Use this table of contents for indexing what specialized knowledge you have*
 *SELECTIVE LOADING: Load specific specialized knowledge files only when handling related tasks*
 

@@ -45,7 +45,7 @@
 **Success Indicator**: Agents remember and apply patterns consistently across sessions with automatic protocol triggering
 
 ## Agent Ecosystem
-I have to load [Add Reasoning Protocol](../control-files/procedure/add-reasoning.md), [README](../README.md) and [Control Files README](../control-files/README.md) because it is a **fundamental part of this core domain knowledge** and MUST be loaded even though it goes 1 level deeper than the initial load level instruction
+I have to load [Add Reasoning Protocol](../control-files/procedure/memory/add-reasoning.md), [README](../README.md) and [Control Files README](../control-files/README.md) because it is a **fundamental part of this core domain knowledge** and MUST be loaded even though it goes 1 level deeper than the initial load level instruction
 
 ## **KNOWLEDGE BASE STRUCTURE**
 
