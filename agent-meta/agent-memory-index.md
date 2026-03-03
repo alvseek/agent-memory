@@ -19,6 +19,8 @@
 
 ## Interactions List
 
+- [2026-03-04 05:55 - Porting Setup Scripts for Antigravity](episodes/2026-03-04-05.55-agent-memory-template-porting-setup-scripts.md) — Porting and aligning the `setup-all`, `compile-scripts`, and `setup` environment scripts from Claude Code to Antigravity.
+
 <!-- Episodes will appear here as you work with the agent -->
 
 ---
