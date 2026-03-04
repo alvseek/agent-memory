@@ -11,8 +11,11 @@ git remote set-url origin <your-private-repo-url>
 git push -u origin master
 ```
 
-### 2. Configure your environment
-Follow the [Environment Setup](control-files/SETUP.md#environment-setup) guide to connect the memory system to your AI agent platform (e.g., Claude Code's `CLAUDE.md`, Gemini's `GEMINI.md`).
+### 2. Run the setup script
+```bash
+bash control-files/setup-scripts/setup-claude-code.sh
+```
+This configures your identity, compiles the global CLAUDE.md, installs slash commands, and sets up hooks + permissions. See the [Setup Guide](control-files/SETUP.md) for details or manual alternatives.
 
 ### 3. Start using your Meta agent
 ```
